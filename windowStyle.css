@@ -38,6 +38,5 @@ body{
     
 }
 audio {
-    display: inline;
-    
+    display: none;
   }
