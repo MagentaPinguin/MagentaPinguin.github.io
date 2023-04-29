@@ -2,8 +2,6 @@
     padding: 0;
     margin: 0;
     border: 0;
-   
-
 }
 
 body{
@@ -13,6 +11,7 @@ body{
     align-items: center;
     background: linear-gradient(to bottom, skyblue, cornflowerblue);
     overflow: hidden;
+    position: relative;
 }
 
 .container{
@@ -37,6 +36,12 @@ body{
     text-align: center;
     
 }
-audio {
-    display: none;
-  }
+
+audio{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10%;
+    max-width: 100px;
+    height: 5%;
+}
