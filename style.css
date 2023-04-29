@@ -2,7 +2,8 @@
     padding: 0;
     margin: 0;
     border: 0;
-    box-sizing: border-box;
+   
+
 }
 
 body{
@@ -11,11 +12,11 @@ body{
     justify-content: center;
     align-items: center;
     background: linear-gradient(to bottom, skyblue, cornflowerblue);
-  
     overflow: hidden;
 }
 
 .container{
+   box-sizing: border-box;
    height: 90vh;
    width:  90vh;
    border-radius: 2%;
