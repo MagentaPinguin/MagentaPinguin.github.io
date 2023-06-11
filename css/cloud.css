@@ -25,6 +25,11 @@
     background-color: inherit;
     position: absolute;
     
+    
+}
+
+.cloud:hover{
+   animation-play-state: paused;
 }
 
 .cloud{

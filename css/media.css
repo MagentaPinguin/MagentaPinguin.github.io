@@ -11,16 +11,16 @@
 
 #mediaBar{
     left: 2vh;
-    padding: 3px;
-    top: 230px;
-    position: absolute;
+    top: 20px;
+    position: relative;
     
 }
 
-#mediaIcon{
+.meidaPictureElement{
     width: 2.9vh;
     padding: 3px;
     height: auto;
+    position: relative;
 }
 
 

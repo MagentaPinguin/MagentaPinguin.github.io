@@ -3,28 +3,31 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta charset="UTF-8">
+    
     <link rel="stylesheet" href="css/windowStyle.css">
     <link rel="stylesheet" href="css/cloud.css">
     <link rel="stylesheet" href="css/media.css">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="scripts.js"></script>
-
     <title>Szabo Zoltan</title>
 
 </head>
 
 <body>
-    <div class="cloud"></div>
+
+    <div class="cloud"> <img id="play_pause"  class="meidaPictureElement"  src="media/pause.png"></div>
     <div class="cloud two" ></div>
     <div class="cloud three" ></div>
     <div class="cloud four" ></div>
 
     <div class="container">
+        <audio id="myAudio" autoplay loop src="media\backgroundMusic.mp3"></audio>
         <img class="profile" src="Prf.jpg" alt="">
         <div  id="mediaBar">
-            <a href="https://wa.me/40748469551" target="_blank"> <img id="mediaIcon" src="media/wapp.jpg" alt="Whatsapp: 0748469551"></a>
-            <a href="https://www.facebook.com/ZoltanVasileSzabo2001"  target="_blank"> <img id="mediaIcon" src="media/fb.jpg" alt="Facebook: https://www.facebook.com/ZoltanVasileSzabo2001"></a>
-         <a href="mailto: szabo.zoltan.vasile@gmail.com"  target="_blank"> <img id="mediaIcon" src="media/gmail.png" alt="Facebook: https://www.facebook.com/ZoltanVasileSzabo2001"></a>
+            <a href="https://wa.me/40748469551" target="_blank"> <img class="meidaPictureElement" src="media/wapp.jpg" alt="Whatsapp: 0748469551"></a>
+            <a href="https://www.facebook.com/ZoltanVasileSzabo2001"  target="_blank"> <img class="meidaPictureElement" src="media/fb.jpg" alt="Facebook: https://www.facebook.com/ZoltanVasileSzabo2001"></a>
+            <a href="mailto: szabo.zoltan.vasile@gmail.com"  target="_blank"> <img class="meidaPictureElement" src="media/gmail.png" alt="Facebook: https://www.facebook.com/ZoltanVasileSzabo2001"></a>
+
         </div>
     </div>
 
