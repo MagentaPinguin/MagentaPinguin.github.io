@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, skyblue, cornflowerblue);
+    overflow: hidden;
+
+}
+
+.container{
+    height: 100vh;
+    width:  100vh;
+    border-radius: 9%;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+    position: fixed;
+    gap: 10px;
+}
+

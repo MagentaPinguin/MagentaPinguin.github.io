@@ -1,0 +1,26 @@
+
+.profile{
+    left: 10px;
+    top: 10px;
+    height: 22vh;
+    width: 22vh;
+    border-radius: 45%;
+    background-color: pink;
+    position:relative;
+}
+
+#mediaBar{
+    left: 2vh;
+    padding: 3px;
+    top: 230px;
+    position: absolute;
+    
+}
+
+#mediaIcon{
+    width: 2.9vh;
+    padding: 3px;
+    height: auto;
+}
+
+
